@@ -1,0 +1,50 @@
+
+#back{
+    background-image: url(img/hero-bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:660px;
+    color: white;
+}
+#nme{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+#na{
+    backdrop-filter: blur(50px);
+}
+#icn:hover{
+    color: rgb(252, 191, 7);
+    transition: 0.2s ease-in-out;
+}
+#showppp:hover{
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    padding: 1.5px;
+}
+#colr:hover{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+}
+#food{
+    width: 350px;
+    height: 250px;
+}
+#pad{
+   overflow: hidden;
+    transition: 0.3s ease, filter 0.4s ease;
+}
+#pad:hover{
+    transform: scale(1.15);
+    filter: brightness(1.1);
+}
+#padd{
+    overflow: hidden;
+    transition: 0.3s ease, filter 0.3s ease;
+}
+#padd:hover{
+    transform: scale(0.90);
+    filter: brightness(1);
+}
